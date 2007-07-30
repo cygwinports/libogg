@@ -1,0 +1,9 @@
+category: Audio Video
+requires: cygwin libogg0
+external-source: libogg
+sdesc: "Xiph.org Ogg container library (development)"
+ldesc: "Ogg project codecs use the Ogg bitstream format to arrange the 
+raw, compressed bitstream into a more robust, useful form.  For example, 
+the Ogg bitstream makes seeking, time stamping and error recovery 
+possible, as well as mixing several sepearate, concurrent media streams 
+into a single physical bitstream."

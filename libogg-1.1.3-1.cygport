@@ -1,0 +1,10 @@
+DESCRIPTION="Xiph OGG container library"
+HOMEPAGE="http://www.vorbis.com/"
+SRC_URI="http://downloads.xiph.org/releases/${PN#lib}/${P}.tar.gz"
+
+abi=0
+PKG_NAMES="${PN} ${PN}${abi} ${PN}-devel"
+PKG_HINTS="setup lib devel"
+PKG_CONTENTS[0]='usr/share/doc/'
+PKG_CONTENTS[1]="usr/bin/${PN/lib/cyg}-${abi}.dll"
+PKG_CONTENTS[2]='usr/include/ usr/lib/ usr/share/aclocal/'
