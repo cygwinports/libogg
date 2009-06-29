@@ -1,5 +1,5 @@
 category: Audio Video
-requires: cygwin libogg0
+requires: libogg0
 external-source: libogg
 sdesc: "Xiph.org Ogg container library (development)"
 ldesc: "Ogg project codecs use the Ogg bitstream format to arrange the 
